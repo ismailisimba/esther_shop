@@ -1,0 +1,28 @@
+section.scrollspy#cases
+    .container
+        .row
+            .col.s12.center
+                h2 Selected cases
+        .blocks
+            .row
+
+                .col.s12
+                    a(href='#scatola-blu', style='background-image: url(./assets/images/cases/blue-box.png)').block.rectangle-60.modal-trigger
+                        .waves-effect.waves-light.content.flow-text(style='background: #f8bbd0')
+                            .title Scatola blu
+                .col.s12
+                    a(href='#la-tazza', style='background-image: url(./assets/images/cases/teal-cup.png)').block.rectangle-60.modal-trigger
+                        .waves-effect.waves-light.content.flow-text(style='background: #d1c4e9')
+                            .title La tazza
+
+                .col.s12
+                    a(href='#corallo', style='background-image: url(./assets/images/cases/coral-cup-vertical.png)').block.rectangle-60.modal-trigger
+                        .waves-effect.waves-light.content.flow-text(style='background: #b39ddb')
+                            .title Corallo
+
+include ../modals/_scatola-blu.pug
+include ../modals/_corallo.pug
+include ../modals/_la-tazza.pug
+include ../modals/_vaso-astratto.pug
+include ../modals/_vaso-largo.pug
+include ../modals/_candeliere-moderno.pug

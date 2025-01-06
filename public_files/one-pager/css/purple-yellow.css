@@ -1,0 +1,97 @@
+/* 
+ * hex: #8238e6
+ * color name: purple  
+ */
+.pt_duble_color_line {
+	background-color: #8238e6;
+}
+.pt_skip_intro:hover {
+	border-color: #8238e6;
+	color: #8238e6;
+}
+.hexagon_border .hexagon-in2 {
+	background: #8238e6;
+}
+header.pt_navbar .pt_nav li.active a {
+	background-color: #181818;
+}
+.pt_portfolio_nav ul li a:hover {
+	color: #8238e6;
+}
+.intro-icon-block h2 {
+	color: #8238e6;
+}
+.pt_close_section_btn:hover {
+	background: #8238e6;
+}
+#pt_masonry .masonry-item h5 {
+	background: #8238e6;
+}
+.plans .plan .plan-container .plan-price {
+	color: #8238e6;
+}
+.plans .plan .plan-container .choose_plan_btn:hover {
+	background: #8238e6;
+}
+.training-schedule-section .schedule-table th,
+.training-schedule-section .schedule-table td {
+	color: #8238e6;
+}
+.blog-list-section article .read-more {
+	background: #8238e6;
+}
+a.ready-to-train:hover {
+	background: #8238e6;
+}
+.contact-section .contact-form table td .form-submit:hover {
+	background: #8238e6;
+}
+
+
+/* 
+ * hex: #ffcc18
+ * color name: yellow  
+ */
+.pt_duble_color_line span {
+	background-color: #ffcc18;
+}
+.pt_skip_intro {
+	border-color: #ffcc18;
+	color: #ffcc18;
+}
+.second_color .hexagon_border .hexagon-in2 {
+	background: #ffcc18;
+}
+.pt_close_section_btn {
+	background: #ffcc18;
+}
+#pt_masonry .masonry-item:nth-child(even) h5 {
+	background: #ffcc18;
+}
+.plans .plan h2 {
+	color: #ffcc18;
+}
+.plans .plan .plan-container .choose_plan_btn {
+	background-color: #ffcc18;
+}
+.training-schedule-section span {
+	color: #ffcc18;
+}
+.blog-list-section article .read-more:hover {
+	background: #ffcc18;
+}
+.ready-to-train {
+	background: #ffcc18;
+}
+.testimonials-section {
+	background: #ffcc18;
+}
+.contact-section .contact-form table td .form-submit {
+	background: #ffcc18;
+}
+.fast-contact-section .fa {
+	color: #ffcc18;
+}
+footer .copyright a:hover {
+	color: #ffcc18;
+}

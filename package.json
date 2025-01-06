@@ -1,0 +1,25 @@
+{
+  "name": "esther2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node .",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/bigquery": "^7.9.1",
+    "@google-cloud/storage": "^7.14.0",
+    "axios": "^1.7.9",
+    "cookie-parser": "^1.4.7",
+    "crypto-js": "^4.2.0",
+    "express": "^4.21.0",
+    "formidable": "^3.5.1",
+    "googleapis": "^144.0.0",
+    "jsdom": "^25.0.1",
+    "jsrsasign": "^11.1.0"
+  }
+}

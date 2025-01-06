@@ -1,0 +1,282 @@
+/* Responsive */
+
+/* @screen-lg */
+@media (max-width: 1280px) and (min-width: 992px) { 
+	body {
+		border: 0px solid blue;
+	}
+	
+	.pt_hexagons .right-side .hexagon-wrapper:nth-child(3) {
+		display: none;
+	}
+	.pt_hexagons .left-side .hexagon-wrapper:nth-child(1) {
+	    display: none;
+	}
+	.pt_navbar .pt_nav a {
+		font-size: 12px;
+	}
+	.blog-list-div article .post-thumb {
+		max-height: 270px;
+		overflow: hidden;
+	}
+	.clients-div {
+		height: 160px; 
+	}
+	.clients-div .clients-list a {
+		width: 120px;
+		margin-right: 20px;
+	}
+		.clients-div .clients-list a img {
+			max-width: 100%;
+		}
+	.contact-div .contact-form table {
+		width: 100%;
+	}
+}
+
+/* @screen-md */
+@media (max-width: 992px) { 
+	body {
+		border: 0px solid green;
+	}
+	
+	/* revolution slider */
+	.tp-caption.description {
+		font-size: 13px;
+	}
+	.tp-caption.bigtitle {
+		font-size: 36px;
+	}
+	
+	#coverflow-intro {
+		height: 650px; 
+	}
+	
+	.pt_navbar .pt_nav a {
+		font-size: 12px;
+	}
+	.blog-list-div article .post-thumb {
+		max-height: 270px;
+		overflow: hidden;
+	}
+	.clients-div {
+		height: 160px; 
+	}
+	.clients-div .clients-list a {
+		width: 120px;
+		margin-right: 20px;
+	}
+		.clients-div .clients-list a img {
+			max-width: 100%;
+		}
+		
+	.contact-div .contact-form table {
+		width: 100%;
+	}
+	
+	.coverflow {
+		width: 98%;
+	}
+		.coverflow .coverflow-caption {
+			padding: 10px;
+		}
+		.coverflow-caption h2 {
+			font-size: 12px;
+		}
+		.coverflow-caption p {
+			font-size: 11px;
+		}
+		.coverflow-controls .coverflow-info {
+			padding: 0 40px;
+			margin-left: -70px;
+		}
+}	
+
+/* @screen-sm */
+@media (max-width: 768px) { 
+	body {
+		border: 0px solid red;
+		padding-top: 108px;
+	}
+	
+	/* revolution slider */
+	.tp-caption.description {
+		font-size: 13px;
+	}
+	.tp-caption.bigtitle {
+		font-size: 30px;
+	}
+	
+	#coverflow-intro {
+		height: 590px; 
+	}
+	
+	.pt_navbar {
+		position: fixed;
+		top: 0;
+		left: 0px;
+		width: 100%;
+		z-index: 999;
+	}
+	#toggle-nav {
+		display: block;
+	}
+	.pt_navbar .pt_nav {
+		width: 100%;
+		height: 0px;
+		overflow: hidden;
+	}
+		.pt_navbar .pt_nav.open_menu {
+			height: auto;
+		}
+	.pt_navbar .pt_nav > li {
+		display: block;
+		width: 100%;
+		font-size: 13px;
+		border-bottom: 1px dotted rgba(255, 255, 255, 0.2)
+	}
+		.pt_navbar.toggled .pt_nav > li:last-child {
+			border: none;
+		}
+		
+	.portfolio-filter li {
+		margin-bottom: 2px;
+	}
+	
+	.plans .plan {
+		margin: 0px 0px 20px 0px;
+	}
+	.training-schedule-div .schedule-table {
+		width: 100%;
+	}
+	
+	.testimonials-div {
+		height: auto;
+		padding-bottom: 100px;
+	}
+	
+	.clients-div .clients-list a {
+		width: 38%;
+		margin-right: 2%;
+	}
+	
+	.clients-div {
+		height: auto;
+		padding-bottom: 30px;
+	}
+	
+	.contact-div .contact-form table {
+		width: 100%;
+	}
+	
+	.fast-contact-div .row > div {
+		margin: 0px 0px 20px 0px;
+	}
+	footer .social li {
+		margin-bottom: 20px;
+	}
+}	
+
+/* @screen-xs */
+@media (max-width: 480px) { 
+	.tp-caption.bigtitle, .tp-caption.bigtitle.doubledivider {
+		padding: 3% 2%;
+	}
+	body {
+		border: 0px solid yellow;
+		padding-top: 108px;
+	}
+	
+	/* revolution slider */
+	.tp-caption.description {
+		font-size: 13px;
+	}
+	.tp-caption.bigtitle {
+		font-size: 20px;
+	}
+	
+	#coverflow-intro {
+		height: 350px; 
+	}
+		.coverflow-caption {
+			display: none !important;
+		}
+		.coverflow-controls {
+			width: 300px;
+		}
+	
+	.pt_navbar {
+		position: fixed;
+		top: 0;
+		left: 0px;
+		width: 100%;
+		z-index: 999;
+	}
+	#toggle-nav {
+		display: block;
+	}
+	#navbar-top {
+		height: 0px;
+	}
+	.pt_navbar .pt_nav {
+		width: 100%;
+		height: 0px;
+		overflow: hidden;
+	}
+		.pt_navbar .pt_nav.open_menu {
+			height: auto;
+		}
+	.pt_navbar .pt_nav > li {
+		display: block;
+		width: 100%;
+		font-size: 13px;
+		border-bottom: 1px dotted rgba(255, 255, 255, 0.2)
+	}
+		.pt_navbar.toggled .pt_nav > li:last-child {
+			border: none;
+		}
+		
+	.portfolio-filter li {
+		margin-bottom: 2px;
+	}
+	
+	.plans .plan {
+		margin: 0px 0px 20px 0px;
+	}
+	.training-schedule-div .schedule-table {
+		width: 100%;
+	}
+	
+	.testimonials-div {
+		height: auto;
+		padding-bottom: 100px;
+	}
+	
+	.clients-div .clients-list a {
+		width: 38%;
+		margin-right: 2%;
+	}
+	
+	.clients-div {
+		height: auto;
+		padding-bottom: 30px;
+	}
+	
+	.contact-div .contact-form table {
+		width: 100%;
+	}
+	
+	.fast-contact-div .row > div {
+		margin: 0px 0px 20px 0px;
+	}
+	footer .social li {
+		margin-bottom: 20px;
+	}
+	
+	.slide-logo {
+		display: none !important;
+	}
+	.tp-caption.bigtitle {
+		border: none !important;
+	}
+}

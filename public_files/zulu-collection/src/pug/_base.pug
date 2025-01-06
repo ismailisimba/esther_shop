@@ -1,0 +1,62 @@
+doctype html
+html(lang='en')
+
+    include layout/_head.pug
+
+    block vars
+
+    body(data-hsb=dataHsb)
+        // Navigation
+        include layout/_nav.pug
+
+        // Background container
+        #explosion-container
+
+        // Intro "hero" section
+        section.hero.scrollspy#intro
+            .container
+                h1 We are a small dedicated team that passionately produces award–winning hand crafted content
+
+        // Cases section
+        case cases
+            when 'mixed-2-col'
+                include sections/_cases-mixed-2-col.pug
+            when 'rectangles-1-col'
+                include sections/_cases-rectangles-1-col.pug
+            when 'rectangles-2-col'
+                include sections/_cases-rectangles-2-col.pug
+            when 'rectangles-3-col'
+                include sections/_cases-rectangles-3-col.pug
+            when 'squares-2-col'
+                include sections/_cases-squares-2-col.pug
+            when 'squares-3-col'
+                include sections/_cases-squares-3-col.pug
+            when 'vertical-rectangles-2-col'
+                include sections/_cases-vertical-rectangles-2-col.pug
+            when 'vertical-rectangles-3-col'
+                include sections/_cases-vertical-rectangles-3-col.pug
+            default
+                include sections/_cases-mixed-2-col.pug
+
+        // Expertise section
+        include sections/_expertise.pug
+
+        // Pricing section
+        include sections/_pricing.pug
+
+        // FAQ section
+        include sections/_faq.pug
+
+        // Journal section
+        include sections/_journal.pug
+
+        // Contact section
+        include sections/_contact.pug
+
+        // Footer
+        include layout/_footer.pug
+
+        // Scripts
+        include layout/_scripts.pug
+
+        block page-scripts

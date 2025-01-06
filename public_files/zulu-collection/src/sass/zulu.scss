@@ -1,0 +1,125 @@
+/*
+[Master Stylesheet]
+Project: Zulu
+Version: 1.0
+Author: Yegor Borisenco <pimmey@pimmey.com>
+Author profile: https://themeforest.net/user/pimmey
+
+[Table of Contents]
+0 Typography
+1 Global elements
+2 Navigation
+3 Hero section
+4 Block layout
+5 Modal
+6 Expertise section
+7 Pricing section
+8 Journal section
+9 Form
+10 Toasts
+11 Slider
+
+[Color codes]
+# Zulu makes use of the beautiful Material design Color Palette - http://materializecss.com/color.html#palette
+# As well as randomly generated colors
+White: #fff;
+Black: #373737;
+
+[Typography]
+# Check out http://materializecss.com/typography.html for more details
+font-family -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif
+body:       14.5px
+p:          Responsive flow text (http://materializecss.com/typography.html#flow)
+h2:         3.56rem/110%
+h3:         2.92rem/110%
+h4:         2.28rem/110%
+h5:         1.64rem/110%
+*/
+@import '../../node_modules/bourbon/core/bourbon';
+
+@import 'components/materialize-colors';
+@import 'components/variables';
+
+/*---------------------------------------------------------------------------------------
+
+0 Typography
+
+-----------------------------------------------------------------------------------------*/
+@import 'components/typography';
+
+/*---------------------------------------------------------------------------------------
+
+1 Global elements
+
+-----------------------------------------------------------------------------------------*/
+@import 'components/global';
+
+/*---------------------------------------------------------------------------------------
+
+2 Navigation
+
+-----------------------------------------------------------------------------------------*/
+@import 'components/nav';
+
+/*---------------------------------------------------------------------------------------
+
+3 Hero section
+
+-----------------------------------------------------------------------------------------*/
+@import 'components/hero';
+
+/*---------------------------------------------------------------------------------------
+
+4 Block layout
+
+-----------------------------------------------------------------------------------------*/
+@import 'components/blocks';
+
+/*---------------------------------------------------------------------------------------
+
+5 Modal
+
+-----------------------------------------------------------------------------------------*/
+@import 'components/modal';
+
+/*---------------------------------------------------------------------------------------
+
+6 Expertise section
+
+-----------------------------------------------------------------------------------------*/
+@import 'components/expertise';
+
+/*---------------------------------------------------------------------------------------
+
+7 Pricing section
+
+-----------------------------------------------------------------------------------------*/
+@import 'components/pricing';
+
+/*---------------------------------------------------------------------------------------
+
+8 Journal section
+
+-----------------------------------------------------------------------------------------*/
+@import 'components/journal';
+
+/*---------------------------------------------------------------------------------------
+
+9 Form
+
+-----------------------------------------------------------------------------------------*/
+@import 'components/form';
+
+/*---------------------------------------------------------------------------------------
+
+10 Toasts
+
+-----------------------------------------------------------------------------------------*/
+@import 'components/toasts';
+
+/*---------------------------------------------------------------------------------------
+
+11 Slider
+
+-----------------------------------------------------------------------------------------*/
+@import 'components/slider';

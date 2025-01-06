@@ -1,0 +1,334 @@
+/* 1. Colors, Text Selection Color
+================================================== */
+::-webkit-input-placeholder {
+	color: #e74c3c;
+}
+:-moz-placeholder {
+	color: #e74c3c;
+}
+::-moz-focus-inner {
+	border: 0;
+}
+.placeholder {
+	color: #e74c3c;
+}
+a {
+	color: #e74c3c;
+	text-decoration: none;
+	outline: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active, a:focus {
+	outline: none;
+}
+
+/* 2. Selection Colors
+================================================== */
+::-moz-selection {
+	color: #ffffff;
+	background: #e74c3c;
+}
+::selection {
+	color: #ffffff;
+	background: #e74c3c;
+}
+
+
+/* 3. Font-Face
+================================================== */
+@font-face {
+    font-family: 'exo_2.0light';
+    src: url('../css/font/exo2.0-light-webfont.eot');
+    src: url('../css/font/exo2.0-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../css/font/exo2.0-light-webfont.woff') format('woff'),
+         url('../css/font/exo2.0-light-webfont.ttf') format('truetype'),
+         url('../css/font/exo2.0-light-webfont.svg#exo_2.0light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'exo_2.0medium';
+    src: url('../css/font/exo2.0-medium-webfont.eot');
+    src: url('../css/font/exo2.0-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../css/font/exo2.0-medium-webfont.woff') format('woff'),
+         url('../css/font/exo2.0-medium-webfont.ttf') format('truetype'),
+         url('../css/font/exo2.0-medium-webfont.svg#exo_2.0medium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'exo_2.0regular';
+    src: url('../css/font/exo2.0-regular-webfont.eot');
+    src: url('../css/font/exo2.0-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../css/font/exo2.0-regular-webfont.woff') format('woff'),
+         url('../css/font/exo2.0-regular-webfont.ttf') format('truetype'),
+         url('../css/font/exo2.0-regular-webfont.svg#exo_2.0regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* 4. Body
+================================================== */
+body {
+}
+
+.intro-container {
+	width: 100%;
+	height: 350px;
+	margin-top: 20px;
+}
+	.intro-container .sep-line {
+		width: 60px;
+	}
+	.intro-container .sep-line .the-line {
+		height: 350px;
+		position: absolute;
+		top: 0px;
+		left: 50%;
+		margin-left: -1px;
+		width: 4px;
+		background: #dddddd;
+	}
+	.intro-container .sep-line .the-line-container {
+		height: 350px;
+		width: 100%;
+		position: relative;
+	}
+	.intro-container .sep-line .left-arrow {
+		width: 0; 
+		height: 0; 
+		border-bottom: 20px solid transparent;
+		border-top: 20px solid transparent;
+		border-right: 20px solid #e74c3c;
+		font-size: 0;
+		line-height: 0;
+		position: absolute;
+		top: 50%;
+		margin-top: -20px;
+		margin-left: -20px;
+		display: none;
+	}
+	.intro-container .sep-line .right-arrow {
+		width: 0; 
+		height: 0; 
+		border-bottom: 20px solid transparent;
+		border-top: 20px solid transparent;
+		border-left: 20px solid #3498db;
+		font-size: 0;
+		line-height: 0;
+		position: absolute;
+		top: 50%;
+		margin-top: -20px;
+		margin-left: 4px;
+		display: none;
+	}
+	
+	.box {
+		width: 300px;
+		height: 460px;
+		position: relative;
+		background: #fff;
+		display: inline-block;
+		margin: 0 10px;
+		cursor: pointer;
+		color: #2c3e50;
+		box-shadow: inset 0 0 0 3px #2c3e50;
+		-webkit-transition: background 0.4s 0.5s;
+		transition: background 0.4s 0.5s;
+	}
+	
+	.box:hover {
+		background: #fff;
+		-webkit-transition-delay: 0s;
+		transition-delay: 0s;
+	}
+	
+	.box h3 {
+		font-family: "exo_2.0medium", cursive;
+		font-size: 180px;
+		line-height: 370px;
+		margin: 0;
+		font-weight: 400;
+		width: 100%;
+	}
+	
+	h2 {
+		font-family: "exo_2.0medium", cursive;
+		font-size:36px;
+		text-align: center;
+
+		margin: 50px 0 0 0;
+		font-weight: 400;
+
+	}
+	
+	.box span {
+		display: block;
+		font-weight: 400;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		font-size: 13px;
+		padding: 5px;
+	}
+	
+	.box h3,
+	.box span {
+		-webkit-transition: color 0.4s 0.5s;
+		transition: color 0.4s 0.5s;
+	}
+	
+	.box:hover h3,
+	.box:hover span {
+		color: #fff;
+		-webkit-transition-delay: 0s;
+		transition-delay: 0s;
+	}
+	
+	.box svg {
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	
+	.box svg line {
+		stroke-width: 3;
+		stroke: #ecf0f1;
+		fill: none;
+		-webkit-transition: all .8s ease-in-out;
+		transition: all .8s ease-in-out;
+	}
+	
+	.box:hover svg line {
+		-webkit-transition-delay: 0.1s;
+		transition-delay: 0.1s;
+	}
+	
+	.box svg line.top,
+	.box svg line.bottom {
+		stroke-dasharray: 330 240; 
+	}
+	
+	.box svg line.left,
+	.box svg line.right {
+		stroke-dasharray: 490 400;
+	}
+	
+	.box:hover svg line.top {
+		-webkit-transform: translateX(-600px);
+		transform: translateX(-600px);
+	}
+	
+	.box:hover svg line.bottom {
+		-webkit-transform: translateX(600px);
+		transform: translateX(600px);
+	}
+	
+	.box:hover svg line.left {
+		-webkit-transform: translateY(920px);
+		transform: translateY(920px);
+	}
+	
+	.box:hover svg line.right {
+		-webkit-transform: translateY(-920px);
+		transform: translateY(-920px);
+	}
+	
+	.box {
+		box-shadow: inset 0 0 0 10px #fff;
+	}
+	
+	.box:hover h3,
+	.box:hover span {
+		color: #e74c3c;
+	}
+	
+	.box svg line {
+		stroke-width: 18;
+	}
+	
+	.box:hover svg line {
+		stroke: #e74c3c;
+	}
+	
+	.box.blue:hover svg line {
+		stroke: #3498db;
+	}
+	.img_pt {
+		margin: 10px 0px 0px 0px;
+	}
+	.navigation {
+	    border: 2px solid #FFFFFF;
+	    border-radius: 20px;
+	    font-family: "exo_2.0light",sans-serif;
+	    font-size: 28px;
+	    font-weight: 300;
+	    height: 62px;
+	    letter-spacing: 0.1em;
+	    line-height: 50px;
+	    margin: 60px auto;
+	    max-width: 450px;
+	    position: relative;
+	    z-index: 5;
+	}
+	
+		.navigation .women {
+		    background: none repeat scroll 0 0 #F54F36;
+		    border-bottom-left-radius: 20px;
+		    border-top-left-radius: 20px;
+		    color: #FFFFFF;
+		    height: 58px;
+		    left: 0;
+		    position: absolute;
+		    text-align: center;
+		    top: 0;
+		    width: 210px;
+		    line-height: 60px;
+		}
+		.ore {
+		    background: none repeat scroll 0 0 #222528;
+		    border: 2px solid #FFFFFF;
+		    border-radius: 100%;
+		    color: #fff;
+		    font-family: "exo_2.0light",sans-serif;
+		    font-size: 1.2em;
+		    height: 70px;
+		    left: 190px;
+		    letter-spacing: 0.1em;
+		    line-height: 65px;
+		    position: absolute;
+		    text-align: center;
+		    top: -5px;
+		    width: 70px;
+		    z-index: 10;
+		}
+		.man {
+		    background: none repeat scroll 0 0 #3498db;
+		    border-bottom-right-radius: 20px;
+		    border-top-right-radius: 20px;
+		    color: #FFFFFF;
+		    height: 58px;
+		    position: absolute;
+		    right: 0;
+		    text-align: center;
+		    top: 0;
+		    width: 210px;
+		    line-height: 60px;
+		}
+		.man:hover,
+		.women:hover {
+			color: #fff;
+			background-color: #222528;
+		}
+
+
+
+
+
+
+
+

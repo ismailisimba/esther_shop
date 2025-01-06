@@ -1,0 +1,102 @@
+nav {
+    top: -100%;
+    height: 100px;
+    line-height: 100px;
+    background: transparent;
+    box-shadow: none;
+    transition: top .4s $ease-out-circ .5s;
+
+    &.active {
+        top: 0;
+    }
+
+    ul a {
+        position: relative;
+        padding: 0 1.25rem;
+        font-size: 1.25rem;
+        font-weight: 500;
+
+        &.waves-effect {
+            overflow: visible;
+        }
+
+        &:hover {
+            background-color: transparent;
+        }
+
+        &.active::after {
+            position: absolute;
+            top: -1.5rem;
+            left: 50%;
+            content: '•';
+            transform: translateX(-50%);
+        }
+    }
+
+    .brand-logo {
+        top: 5px;
+        padding: 0 2rem;
+    }
+
+    .sidenav-toggle {
+        margin-right: 1rem;
+    }
+}
+
+//.table-of-contents {
+//    li {
+//        padding: 0;
+//        margin-left: 2rem;
+//    }
+//
+//    a {
+//        position: relative;
+//        display: inline;
+//        padding: 0;
+//        font-weight: 400;
+//        color: $white;
+//
+//        &:hover,
+//        &.active {
+//            padding: 0;
+//            color: $white;
+//            border-left: 0;
+//        }
+//
+//        &.active {
+//            color: $white;
+//
+//            &::after {
+//                position: absolute;
+//                bottom: -1.25rem;
+//                left: 50%;
+//                display: block;
+//                width: 10px;
+//                margin-left: -5px;
+//                text-align: center;
+//                content: '\2022';
+//            }
+//        }
+//    }
+//}
+
+.side-nav {
+    background-color: transparentize($black, .6);
+    box-shadow: none;
+
+    a {
+        height: auto;
+        padding: 1rem 3rem;
+        line-height: inherit;
+        color: $white;
+
+        &.active::after {
+            top: .9rem;
+            left: 1.5rem;
+        }
+    }
+}
+
+.navbar-fixed {
+    height: 0;
+}

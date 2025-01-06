@@ -1,0 +1,127 @@
+/*.rev-slider {
+ border: 1px solid red;
+ clear: both;
+ }*/
+.tp-banner-container {
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+
+.tp-leftarrow, .tp-leftarrow.default,
+.tp-rightarrow, .tp-rightarrow.default {
+	background: none !important;
+	width: 65px !important;
+	height: 65px !important;
+	border: 2px solid #c0c0c0;
+	border-radius: 100%;
+	font-size: 32px;
+	color: #c0c0c0;
+	text-align: center;
+	font: normal 32px FontAwesome;
+	line-height: 60px !important;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.tp-rightarrow:before {
+	content: "\f105";
+}
+.tp-leftarrow:before {
+	content: "\f104";
+}
+.tp-leftarrow:hover, .tp-leftarrow.default:hover,
+.tp-rightarrow:hover, .tp-rightarrow.default:hover {
+	border-color: #ff4739;
+	color: #ff4739; 
+}
+
+.tp-bullets.simplebullets.round .bullet {
+    background: url('../images/bullet.png');
+}
+
+
+.tp-caption.description {
+	font-size: 18px;
+	line-height: 25px;
+	font-weight: normal;
+	font-family: "Open Sans";
+	color: #fff;
+	text-align: center;
+	white-space: normal;
+	width: 60%;
+	display: block;
+}
+
+.tp-caption.bigtitle {
+	font-size: 42px;
+	line-height: 42px;
+	font-weight: 700;
+	font-family: "Montserrat";
+	color: #FFF;
+	text-transform: uppercase;
+	border-bottom: 2px solid #FFF;
+	padding-bottom: 52px;
+	margin-bottom: 52px;
+	display: block;
+	width: 70%;
+	text-align: center;
+	white-space: normal !important;
+}
+
+.tp-caption.bigtitle.doubledivider {
+	border-top: 2px solid #FFF;
+	display: inline-block;
+	width: auto;
+	padding: 50px 2% 50px 2%;
+}
+.tp-caption.bigtitle.noborder {
+	border: none;
+	padding-bottom: 0;
+}
+.tp-caption.lightgrey_divider {
+	background-color: #ffffff;
+	width: 60% !important;
+	height: 2px !important;
+}
+.tp-caption.bigtitle span {
+	color: #ff4739;
+}
+.tp-caption .red-button {
+	font-size: 13px;
+	line-height: 13px;
+	font-weight: 400;
+	font-family: "Open Sans";
+	background: #ff4739;
+	color: #FFF;
+	padding: 15px 30px;
+	text-transform: uppercase;
+	margin: 50px 0px 0px 0px;
+	display: inline-block;
+	border-radius: 2px;
+}
+.tp-caption .transparent-button {
+	background: none;
+	border: 2px solid #FFFFFF;
+	border-radius: 2px;
+	color: #FFFFFF;
+	font-family: "Open Sans";
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 13px;
+	padding: 15px 30px;
+	text-transform: uppercase;
+	margin-top: 40px ;
+	display: inline-block;
+}
+.tp-caption .transparent-button:hover {
+	color: #ff4739;
+	border: 2px solid #ff4739;
+}
+.tp-caption .red-button:hover {
+	background: #62DC42;
+	color: #FFF;
+}
+.tp-simpleresponsive img.slider-logo {
+	width: 220px !important;
+	height: 77px !important;
+}

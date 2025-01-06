@@ -1,0 +1,65 @@
+.pricing {
+    .info {
+        display: inline-block;
+        padding: 0 1rem;
+        cursor: help;
+        opacity: .85;
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+
+    h5 {
+        margin-bottom: 1em;
+    }
+
+    .price {
+        font-size: 5rem;
+        font-weight: 200;
+    }
+
+    sup {
+        top: -3rem;
+    }
+
+    .divider {
+        margin-top: 2rem;
+        background: $white;
+    }
+
+    @media #{$large-and-up} {
+        li::before {
+            content: '— ';
+        }
+    }
+
+    @media #{$medium-and-down} {
+        .price-box {
+            text-align: center;
+        }
+
+        .info {
+            position: absolute;
+        }
+    }
+}
+
+
+.faq {
+    .collapsible {
+        border: 0;
+        box-shadow: none;
+    }
+
+    .collapsible-header {
+        padding: 1rem 0;
+        font-weight: 600;
+        line-height: 2.5rem;
+        background: transparent;
+    }
+
+    .collapsible-body p {
+        padding: 2rem 0;
+    }
+}

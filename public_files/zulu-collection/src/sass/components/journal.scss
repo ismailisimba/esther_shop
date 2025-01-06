@@ -1,0 +1,41 @@
+.journal {
+
+    .info {
+        padding: 3rem 0;
+
+        @media #{$large-and-up} {
+            &:hover {
+                .meta {
+                    color: $white;
+                }
+
+                .post-title {
+                    &::after {
+                        left: 0;
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+
+        @media #{$medium-and-down} {
+            text-align: center;
+        }
+    }
+
+    .meta {
+        color: transparentize($white, .25);
+    }
+
+    @media #{$large-and-up} {
+        .post-title {
+            &::after {
+                position: relative;
+                left: -1rem;
+                content: ' →';
+                opacity: 0;
+                transition: all .4s $ease-out-circ;
+            }
+        }
+    }
+}

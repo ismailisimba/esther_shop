@@ -1,0 +1,47 @@
+section.journal.scrollspy#journal
+    .container
+        .row
+            .col.s12.center
+                h2 Journal
+
+        .row.flow-text
+            article
+                a.col.s12.m6.l4.waves-effect.waves-light.modal-trigger(href='#pink-sunglasses')
+                    .info
+                        .meta
+                            time(datetime='2017-02-05T21:00') February 5#[sup th]
+                            | &nbsp;&mdash;&nbsp;
+                            span by Annie
+                        h5.post-title Pink sunglasses
+
+            article
+                a.col.s12.m6.l4.waves-effect.waves-light.modal-trigger(href='#no-men-no-cry')
+                    .info
+                        .meta
+                            time(datetime='2017-02-01T21:00') February 1#[sup st]
+                            | &nbsp;&mdash;&nbsp;
+                            span by Pete
+                        h5.post-title No men no cry
+
+            article
+                a.col.s12.m6.l4.waves-effect.waves-light.modal-trigger(href='#milky-lady')
+                    .info
+                        .meta
+                            time(datetime='2017-01-15T21:00') January 15#[sup th]
+                            | &nbsp;&mdash;&nbsp;
+                            span by Greg
+                        h5.post-title Milky lady
+
+            article
+                a.col.s12.m6.l4.waves-effect.waves-light.modal-trigger(href='#table-design')
+                    .info
+                        .meta
+                            time(datetime='2017-01-10T21:00') January 10#[sup th]
+                            | &nbsp;&mdash;&nbsp;
+                            span by Annie
+                        h5.post-title Table design
+
+include ../modals/_pink-sunglassses.pug
+include ../modals/_no-men-no-cry.pug
+include ../modals/_milky-lady.pug
+include ../modals/_table-design.pug

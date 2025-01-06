@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.collection-item a {
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.collection-item i.icon {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #0077c0;
+}

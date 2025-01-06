@@ -1,0 +1,108 @@
+/*!
+ * PT - Personal Trainer Template - CSS Animations 
+ * -----------------------------------------------
+ * 
+ * Copyright 2014 AA-Team
+ * 
+ * http://themeforest.net/user/AA-Team/portfolio
+ *
+ * ===============================================
+ * Table of Contents
+ * ===============================================
+ *
+ */
+
+a {
+	transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-webkit-transition: all 0.2s linear;
+}
+
+
+/* Image with animation / Col animation
+================================================== */
+.has-animation {
+	opacity: 0;
+	position: relative;
+}
+
+/* Portfolio items hover animation
+================================================== */
+.blurImageContainer > [id^="blurred"],
+.pt_portfolio_grid article .portfolio-cover {
+	transition: opacity 0.2s linear;
+	-moz-transition: opacity 0.2s linear;
+	-webkit-transition: opacity 0.2s linear;
+}
+	.pt_portfolio_grid article:hover svg,
+	.pt_portfolio_grid article:hover .portfolio-cover {
+		opacity: 1;
+	}
+	
+.pt_portfolio_grid article .portfolio-cover .icons {
+	margin-top: -60px;
+	transition: margin 0.2s linear;
+	-moz-transition: margin 0.2s linear;
+	-webkit-transition: margin 0.2s linear;
+}
+.pt_portfolio_grid article .portfolio-cover h4 {
+	margin-top: 262px;
+	transition: margin 0.2s linear;
+	-moz-transition: margin 0.2s linear;
+	-webkit-transition: margin 0.2s linear;
+}
+	.pt_portfolio_grid article:hover .portfolio-cover .icons {
+		margin-top: 75px;
+	}
+	.pt_portfolio_grid article:hover .portfolio-cover h4 {
+		margin-top: 16px;
+	}
+	
+/* Classes masonry items hover animation
+================================================== */	
+#pt_masonry .masonry-item .overlay {
+	transition: opacity 0.2s linear;
+	-moz-transition: opacity 0.2s linear;
+	-webkit-transition: opacity 0.2s linear;
+}
+
+/* Blog items hover animation
+================================================== */
+.blog-list-div article .post-thumb .blog-overlay {
+	transition: opacity 0.2s linear;
+	-moz-transition: opacity 0.2s linear;
+	-webkit-transition: opacity 0.2s linear;
+}
+	.blog-list-div article .post-thumb .blog-overlay i.fa {
+		top: -60px;
+		transition: top 0.2s linear;
+		-moz-transition: top 0.2s linear;
+		-webkit-transition: top 0.2s linear;
+	}
+	.blog-list-div article .post-thumb:hover .blog-overlay i.fa {
+		top: 50%;
+	}
+
+/* Clients items hover animation
+================================================== */
+.clients-div .clients-list a {
+	transition: opacity 0.2s linear;
+	-moz-transition: opacity 0.2s linear;
+	-webkit-transition: opacity 0.2s linear;
+}
+
+/* Hexagon items hover animation
+================================================== */
+.hexagon-wrapper span.overlay {
+	transition: opacity 0.2s linear;
+	-moz-transition: opacity 0.2s linear;
+	-webkit-transition: opacity 0.2s linear;
+}
+
+/* Menu, toogle responsive
+================================================== */
+.pt_navbar .pt_nav.open_menu {
+	transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-webkit-transition: all 0.2s linear;
+}

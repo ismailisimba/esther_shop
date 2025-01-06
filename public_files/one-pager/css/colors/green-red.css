@@ -1,0 +1,152 @@
+/* 
+ * hex: #62dc42
+ * color name: green
+ */
+.pt_duble_color_line {
+	background-color: #62dc42;
+}
+.pt_skip_intro:hover {
+	border-color: #62dc42;
+	color: #62dc42;
+}
+.hexagone-svg-wrap.skin1 .hexagon-overlay {
+	fill: #62dc42;
+}
+.hexagone-svg-wrap.skin1 .hexagon-border {
+	stroke: #62dc42;
+}
+.pt_navbar .pt_nav li.active a {
+	background-color: #181818;
+}
+.pt_portfolio_nav ul li a:hover {
+	color: #62dc42;
+}
+.intro-icon-block h2 {
+	color: #62dc42;
+}
+.pt_close_div_btn:hover {
+	background: #62dc42;
+}
+.plans .plan .plan-container .plan-price {
+	color: #62dc42;
+}
+.plans .plan .plan-container .choose_plan_btn:hover {
+	background: #62dc42;
+}
+.training-schedule-div .schedule-table th,
+.training-schedule-div .schedule-table td {
+	color: #62dc42;
+}
+.blog-list-div article .read-more {
+	background: #62dc42;
+}
+a.ready-to-train:hover {
+	background: #62dc42;
+}
+.contact-div .contact-form table td .form-submit:hover {
+	background: #62dc42;
+}
+#pt_masonry .masonry-item.skin1 h5,
+#pt_masonry .masonry-item.skin1 .overlay {
+	background: #62dc42;
+}
+.pt_portfolio_nav ul li a.active,
+.pt_portfolio_nav ul li a:hover {
+	color: #62dc42;
+}
+footer .social .fa {
+    color: #62dc42;
+}
+.blog-details-div .post-image .overlay {
+	background-color: rgba(98, 220, 66, 0.7);
+}
+.blog-list-div article .post-thumb .blog-overlay {
+	background: rgba(98, 220, 66, 0.7);
+}
+.pt_navbar .pt_nav a:hover,
+.pt_navbar .pt_nav li.active a {
+	color: #62dc42;
+}
+.tp-caption .red-button:hover {
+	background: #62dc42;
+}
+
+
+/* 
+ * hex: #ff4739
+ * color name: red 
+ */
+::-moz-selection {
+	background: #ff4739;
+}
+::selection {
+	background: #ff4739;
+}
+.pt_duble_color_line span {
+	background-color: #ff4739;
+}
+.pt_skip_intro {
+	border-color: #ff4739;
+	color: #ff4739;
+}
+.hexagone-svg-wrap.skin2 .hexagon-overlay {
+	fill: #ff4739;
+}
+.hexagone-svg-wrap.skin2 .hexagon-border {
+	stroke: #ff4739;
+}
+.pt_close_div_btn {
+	background: #ff4739;
+}
+#pt_masonry .masonry-item.skin2 h5,
+#pt_masonry .masonry-item.skin2 .overlay {
+	background: #ff4739;
+}
+.plans .plan h2 {
+	color: #ff4739;
+}
+.plans .plan .plan-container .choose_plan_btn {
+	background-color: #ff4739;
+}
+.training-schedule-div span {
+	color: #ff4739;
+}
+.blog-list-div article .read-more:hover {
+	background: #ff4739;
+}
+.ready-to-train {
+	background: #ff4739;
+}
+.testimonials-div {
+	background: #ff4739;
+}
+.contact-div .contact-form table td .form-submit {
+	background: #ff4739;
+}
+.fast-contact-div .fa {
+	color: #ff4739;
+}
+footer .copyright a:hover {
+	color: #ff4739;
+}
+footer .social .fa:hover {
+	color: #ff4739;
+}
+.tp-caption .red-button {
+	background: #ff4739;
+}
+.tp-caption.bigtitle span {
+	color: #ff4739;
+}
+.tp-leftarrow:hover, .tp-leftarrow.default:hover,
+.tp-rightarrow:hover, .tp-rightarrow.default:hover {
+	border-color: #ff4739;
+	color: #ff4739; 
+}
+.tp-caption .transparent-button:hover {
+	color: #ff4739;
+	border: 2px solid #ff4739;
+}
+.coverflow-caption h2 {
+	color: #ff4739;
+}
