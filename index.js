@@ -24,7 +24,9 @@ const sensitiveColumns = ['createdAt', 'updatedAt', 'itemId', 'pageId'];
 
 
 
-app.use(express.static(path.join(__dirname, 'public_files/stylish/')));
+//app.use(express.static(path.join(__dirname, 'public_files/stylish/')));
+
+app.use(express.static(path.join(__dirname, 'public_files/')))
 
 app.use(cookieParser()); // Use cookie-parser middleware globally
 
