@@ -302,7 +302,7 @@ async function fetchSchemaAndGeneratePageForm(pageId) {
             const isSection = page.id === "featured-products" || page.id === "latest-products";
             const sectionItems = isSection ? items.map(item => `
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="${item.itemId}" id="${item.itemId}">
+                    <input class="form-check-input" type="checkbox" value="${item.itemId}" id="${item.itemId}" name="${page.id}">
                     <label class="form-check-label" for="${item.itemId}">
                         ${item.name||item.href}
                     </label>
@@ -331,7 +331,7 @@ async function fetchSchemaAndGeneratePageForm(pageId) {
             const formData = new FormData(form);
 
             try {
-                const response = await fetch(`/update-items/update/${pageId}`, {
+                const response = await fetch(`/update-pages`, {
                     method: 'POST',
                     body: formData
                 });
@@ -340,7 +340,7 @@ async function fetchSchemaAndGeneratePageForm(pageId) {
                 if (result.success) {
                     alert('Page updated successfully!');
                     // Optionally, you can close the modal or refresh the page
-                    window.location.reload();
+                    //window.location.reload();
                 } else {
                     alert('Failed to update page.');
                 }
